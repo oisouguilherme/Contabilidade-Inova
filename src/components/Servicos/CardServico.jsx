@@ -2,7 +2,7 @@ import { IconRocket } from "@/assets/Icons";
 
 export function CardServico(){
   return(
-    <div className="bg-white w-80 h-fit text-center flex flex-col items-center px-8 pt-12 pb-8 relative rounded-xl">
+    <div className="bg-white sm:w-80 h-fit text-center flex flex-col items-center px-8 pt-12 pb-8 relative rounded-xl">
       <div className="bg-white rounded-full p-4 absolute -top-6">
         <IconRocket/>
       </div>
