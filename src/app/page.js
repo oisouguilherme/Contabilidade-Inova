@@ -13,17 +13,17 @@ import { ButtonWhatsApp } from "@/components/Utils/ButtonWhatsApp";
 export default function Home() {
   return (
     <div className="bg-[#EBEAE8]">
-      <Header/>
-      <Main/>
-      <Servicos/>
-      <NossaEmpresa/>
-      <FitaExperiencia/>
-      <InformacaoExtra/>
-      <Contato/>
-      <OqueFalam/>
-      <PerguntasFreq/>
-      <ButtonWhatsApp/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Servicos />
+      <NossaEmpresa />
+      <FitaExperiencia />
+      <InformacaoExtra />
+      <Contato />
+      <OqueFalam />
+      <PerguntasFreq />
+      <ButtonWhatsApp />
+      <Footer />
     </div>
   )
 }

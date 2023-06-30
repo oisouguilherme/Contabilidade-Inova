@@ -1,11 +1,11 @@
 export function ButtonWhatsApp() {
   return (
-    <div className="fixed bottom-4 right-4 text-white bg-azul p-2 rounded-full">
+    <div className="fixed bottom-4 right-4 text-white bg-green-600 p-2 rounded-full hover:scale-110 duration-300">
       <a href="#" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
+          width="32"
+          height="32"
           fill="currentColor"
           viewBox="0 0 16 16"
         >

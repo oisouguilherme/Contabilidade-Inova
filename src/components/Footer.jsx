@@ -17,7 +17,10 @@ export function Footer(){
             <IconFAcebook/>
             <IconWhatsApp/>
           </div>
-          <p>contato@gmai.com</p>
+          <div>
+            <p>contato@gmai.com</p>
+            <p>(38) 99821-6533</p>
+          </div>
         </div>
       </div>
     </div>

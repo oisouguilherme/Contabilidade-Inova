@@ -4,7 +4,7 @@ import { Faq } from "./Utils/Faq";
 export function PerguntasFreq() {
 
   return (
-    <div className="max-w-2xl mx-auto space-y-8 py-12 px-4">
+    <section id="Duvidas" className="max-w-2xl mx-auto space-y-8 py-12 px-4">
       <h2 className="text-center text-4xl sm:text-5xl font-medium">
         Perguntas <br /> <span className="text-azul font-bold">Frequentes</span>
       </h2>
@@ -20,6 +20,6 @@ export function PerguntasFreq() {
         <Faq/>
         <Faq/>
       </div>
-    </div>
+    </section>
   );
 }
