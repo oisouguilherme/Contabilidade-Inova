@@ -8,9 +8,9 @@ export function ServicosOferecidos(){
       </h1>
       <div className="flex flex-col gap-16">
         <CardServicoOferecido/>
-        <CardServicoOferecido style={"order-1"}/>
+        <CardServicoOferecido style={"md:order-1"}/>
         <CardServicoOferecido/>
-        <CardServicoOferecido style={"order-1"}/>
+        <CardServicoOferecido style={"md:order-1"}/>
         <CardServicoOferecido/>
       </div>
     </div>

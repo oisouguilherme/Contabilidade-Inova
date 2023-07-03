@@ -36,16 +36,16 @@ export default function Header() {
           >
             <ul className="p-8 space-y-4 text-2xl font-medium">
               <li className="cursor-pointer text-white duration-300">
-                <Link href="/">Página Inicial</Link>
+                <Link href="/" onClick={toggleMenu}>Página Inicial</Link>
               </li>
               <li className="cursor-pointer text-white duration-300">
-                <Link href="/servicos">Serviços</Link>
+                <Link href="/servicos" onClick={toggleMenu}>Serviços</Link>
               </li>
               <li className="cursor-pointer text-white duration-300">
-                <ScrollLink to="SobreNos" smooth={true}>Sobre Nós</ScrollLink>
+                <ScrollLink to="SobreNos" smooth={true} onClick={toggleMenu}>Sobre Nós</ScrollLink>
               </li>
               <li className="cursor-pointer text-white duration-300">
-                <ScrollLink to="Duvidas" smooth={true}>Dúvidas</ScrollLink>
+                <ScrollLink to="Duvidas" smooth={true} onClick={toggleMenu}>Dúvidas</ScrollLink>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div className="hamburger lg:hidden" onClick={toggleMenu}>
+        <div className="hamburger lg:hidden cursor-pointer" onClick={toggleMenu}>
           <span className="block w-6 h-1 bg-white mb-1"></span>
           <span className="block w-6 h-1 bg-white mb-1"></span>
           <span className="block w-6 h-1 bg-white"></span>
